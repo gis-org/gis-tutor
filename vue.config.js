@@ -5,6 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+  publicPath:"/gis-tutor",
   chainWebpack: (config) => {
     config.resolve.alias.set("@api", resolve("src/api"));
   },
