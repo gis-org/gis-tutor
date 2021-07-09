@@ -1,6 +1,6 @@
 <template>
-<div>
-  headdr
+<div class="header">
+  这是header
 </div>
 </template>
 
@@ -11,5 +11,12 @@ export default {
 </script>
 
 <style scoped>
+.header{
+  height: 40px;
+  background-color: cyan;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>
