@@ -13,6 +13,7 @@ export default {
   mounted() {
     new Map({
       target: "map",
+      baseMap:"osm",
       layers: [
         new TileLayer({
           source: new XYZ({

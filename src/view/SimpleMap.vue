@@ -12,7 +12,7 @@ export default {
   async mounted() {
     intl.setLocale("zh-CN")
     const map = new Map({
-      basemap: "topo-vector"
+      basemap: "osm"
     });
 
     const view = new MapView({

@@ -19,7 +19,7 @@ export default {
       console.log("Layer failed to load: ", error);
     }
     const map = new Map({
-      basemap: "gray-vector",
+      basemap: "osm",
     });
 
     const view = new SceneView({
