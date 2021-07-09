@@ -6,9 +6,11 @@
 import Map from "@arcgis/core/Map";
 import MapView from "@arcgis/core/views/MapView";
 import Expand from "@arcgis/core/widgets/Expand";
+import * as intl from "@arcgis/core/intl";
 export default {
   name: "SimpleMap",
   async mounted() {
+    intl.setLocale("zh-CN")
     const map = new Map({
       basemap: "topo-vector"
     });
@@ -17,7 +19,7 @@ export default {
       container: this.$el,
       map: map,
       zoom: 4,
-      center: [15, 65] // longitude, latitude
+      center: [117.13168780199648, 31.83669432640482] // longitude, latitude
     });
     // view.ui.add(map, "top-right");
   }

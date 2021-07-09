@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import WebView from "./view/WebView.vue";
 import SimpleMap from "./view/SimpleMap";
 import Home from "./view/Home";
+import CreatePortal from "./view/CreatePortal";
+import Ol from "./view/Ol";
 
 Vue.use(VueRouter);
 
@@ -18,6 +20,8 @@ const routes = [
     children: [
       { path: "simple", name: "simpleMap", component: SimpleMap },
       { path: "webview", name: "webview", component: WebView },
+      { path: "portal", name: "portal", component: CreatePortal},
+      {path:'ol',name:"ol",component: Ol}
     ],
   },
   { path: "/simp", name: "sim", component: SimpleMap },
