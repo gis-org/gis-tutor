@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-@import 'https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/light/main.css';
+@import 'https://cdn.jsdelivr.net/npm/@arcgis/core/assets/esri/css/main.css';
 .simple-map{
   padding: 0;
   margin: 0;

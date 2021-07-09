@@ -1,6 +1,6 @@
 <template>
   <div  >
-    <SimpleMap ></SimpleMap>
+    <router-view />
 
   </div>
 </template>
@@ -11,7 +11,7 @@ import WebView from "./view/WebView";
 import SimpleMap from "./view/SimpleMap";
 export default {
   name: 'App',
-  components: {SimpleMap, WebView},
+  components: { },
 }
 </script>
 <style>
