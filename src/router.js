@@ -5,6 +5,7 @@ import SimpleMap from "./view/SimpleMap";
 import Home from "./view/Home";
 import CreatePortal from "./view/CreatePortal";
 import Ol from "./view/Ol";
+import MapboxView from "./view/MapboxView";
 
 Vue.use(VueRouter);
 
@@ -21,7 +22,8 @@ const routes = [
       { path: "simple", name: "simpleMap", component: SimpleMap },
       { path: "webview", name: "webview", component: WebView },
       { path: "portal", name: "portal", component: CreatePortal},
-      {path:'ol',name:"ol",component: Ol}
+      {path:'ol',name:"ol",component: Ol},
+      {path:'mapbox',name:'mapbox',component: MapboxView}
     ],
   },
   { path: "/simp", name: "sim", component: SimpleMap },
