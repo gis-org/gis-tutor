@@ -9,3 +9,8 @@ yarn dev
 yarn build
 ```
 使用了vue和@arcgis/core库,用来渲染地理图形
+```shell
+@arcgis/core arcgis核心
+ol           openlayer核心
+mapbox-gl    mapbox核心
+```

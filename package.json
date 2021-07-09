@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "prettier --write */**/*.{html,js}",
-    "dev": "yarn&&vue-cli-service serve",
+    "dev": "yarn||npm&&vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
