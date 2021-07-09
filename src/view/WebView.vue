@@ -24,7 +24,6 @@ export default {
 
     const bookmarks = new Bookmarks({
       view: view,
-      // allows bookmarks to be added, edited, or deleted
       editingEnabled: true,
     });
 
