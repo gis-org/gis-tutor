@@ -9,13 +9,14 @@ import esriConfig from "@arcgis/core/config";
 import Map from "@arcgis/core/Map";
 import MapView from "@arcgis/core/views/MapView";
 import Search from '@arcgis/core/widgets/Search'
+
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 export default {
   name: "SimpleMap",
   async mounted() {
     //部分功能可能需要收费,请酌情考虑
     esriConfig.apiKey =
-      "AAPKa9c42d14dcab4807b6eaf91a8471e1b5bGFEmnQxkgCpw_lZoRgNjSwS-ub3AO0FuQaDCXOtMfmDVHi65mJGVCTdR5GRAKnw";
+      "";
 
 
     const map = new Map({

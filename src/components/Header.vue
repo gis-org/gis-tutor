@@ -6,6 +6,7 @@
     <el-menu-item index="/main/portal">create</el-menu-item>
     <el-menu-item index="/main/ol">open</el-menu-item>
     <el-menu-item index="/main/mapbox">mapbox</el-menu-item>
+    <el-menu-item index="/main/sketch">sketch</el-menu-item>
 
 
   </el-menu>
